@@ -1,0 +1,16 @@
+#cabecalho{
+    border-radius: 5%;
+    margin: 10px 7px;
+    text-align: center;
+}
+#Logo{
+    text-align: center;
+}
+#Sabores{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Sabores2{
+    display: flex;
+    justify-content: space-evenly;
+}
