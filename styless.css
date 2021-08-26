@@ -1,16 +1,154 @@
 #cabecalho{
-    border-radius: 5%;
-    margin: 10px 7px;
+    background-color:#2e5b73 ;
+    display: flex;
+}
+#cabecalho div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#CorExercicio{
+    background-color: #e8aa23 ;
+}
+#FotGrande{
     text-align: center;
 }
-#Logo{
-    text-align: center;
+#Nomes1{
+display: flex;
+justify-content: space-evenly;
+}
+#foto1{
+    width: 300px;
+    height: 408px;
+    border: solid #ba1907 18px;
+    margin-right: 100px;
+}
+#cabeçalhoPedido{
+    background-color:#2e5b73 ;
+}
+#CordoPedido{
+    background-color: #e8aa23;
+    height: 545px;
+}
+#pedidoPrincipal{
+    margin-left: 100px;
 }
 #Sabores{
     display: flex;
     justify-content: space-evenly;
 }
+#descriçao1{
+    background-color:#2e5b73 ;   
+}
+#todaCor{
+    background-color: #e8aa23;
+    height: 600px;  
+}
+#nomedescrição1{
+    margin-left: 100px;
+    border: solid #ba1907 9px;
+    border-radius: 15px;
+    margin-right: 800px;
+    text-align: center;
+}
+#hamburguer1{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+#foto1{
+    margin-left: 500px;  
+}
+#Componentes1{
+    margin-left: 100px; 
+}
+#botao1 button{
+    width: 120px;
+}
 #Sabores2{
     display: flex;
     justify-content: space-evenly;
+}
+#descriçao2{
+    background-color:#2e5b73 ;   
+}
+#nomedescrição2{
+    margin-left: 100px;
+    border: solid #ba1907 9px;
+    border-radius: 15px;
+    margin-right: 800px;
+    text-align: center;
+}
+
+#hamburguer2{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+#foto2{
+    margin-left: 500px;
+    width: 250px;
+    height: 370px;
+    border: solid #ba1907 18px;
+    margin-right: 100px;  
+}
+#botao2 button{
+    width: 120px;
+}
+#Nomes2{
+    display: flex;
+    justify-content: space-evenly;
+    }
+#descriçao3{
+    background-color:#2e5b73 ;   
+}
+#nomedescrição3{
+    margin-left: 100px;
+    border: solid #ba1907 9px;
+    border-radius: 15px;
+    margin-right: 800px;
+    text-align: center;
+}
+#hamburguer3{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+#foto3{
+    margin-left: 500px; 
+    margin-left: 500px;
+    width: 250px;
+    height: 370px;
+    border: solid #ba1907 18px;
+    margin-right: 100px;  
+}
+#botao3 button{
+    width: 120px;
+}
+#descriçao4{
+    background-color:#2e5b73 ;   
+}
+#nomedescrição4{
+    margin-left: 100px;
+    border: solid #ba1907 9px;
+    border-radius: 15px;
+    margin-right: 800px;
+    text-align: center;
+}
+#hamburguer4{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+#foto4{
+    margin-left: 500px; 
+    margin-left: 500px;
+    width: 250px;
+    height: 370px;
+    border: solid #ba1907 18px;
+    margin-right: 100px;  
+}
+#botao4 button{
+    width: 120px; 
 }
