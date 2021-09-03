@@ -1,18 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+    padding: 5px;
+}
 #cabecalho{
-    background-color:#2e5b73 ;
+    background-color:#030303;
     display: flex;
+    justify-content: space-between;
+    color:white;
 }
 #cabecalho div{
     display: flex;
+    margin-right: 20px;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    gap: 2px;
 }
+
 #CorExercicio{
-    background-color: #e8aa23 ;
+    background-color: #e8aa23;
 }
+
 #FotGrande{
     text-align: center;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-right: 305px;
+}
+
+#FotGrande img{
+    border: solid #030303 2px;
 }
 #Nomes1{
 display: flex;
@@ -21,33 +50,43 @@ justify-content: space-evenly;
 #foto1{
     width: 300px;
     height: 408px;
-    border: solid #ba1907 18px;
+    border: solid #030303 2px;
     margin-right: 100px;
 }
 #cabeçalhoPedido{
-    background-color:#2e5b73 ;
+    background-color:#030303 ;
 }
 #CordoPedido{
+    display: flex;
     background-color: #e8aa23;
     height: 545px;
 }
+
+#CordoPedido img{
+    margin-left: 100px;
+    margin-top: 30px;
+}
 #pedidoPrincipal{
     margin-left: 100px;
+    font-size: 18px;
 }
 #Sabores{
     display: flex;
     justify-content: space-evenly;
 }
-#descriçao1{
-    background-color:#2e5b73 ;   
+
+/* Descrição 1 */
+#descriçao1 {
+    background-color:#030303 ;   
 }
-#todaCor{
+
+#todaCor {
     background-color: #e8aa23;
     height: 600px;  
 }
 #nomedescrição1{
     margin-left: 100px;
-    border: solid #ba1907 9px;
+    border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
@@ -63,19 +102,21 @@ justify-content: space-evenly;
 #Componentes1{
     margin-left: 100px; 
 }
-#botao1 button{
+
+#botao1 button {
     width: 120px;
 }
+/* Descrição 2 */
 #Sabores2{
     display: flex;
     justify-content: space-evenly;
 }
 #descriçao2{
-    background-color:#2e5b73 ;   
+    background-color:#030303 ;   
 }
 #nomedescrição2{
     margin-left: 100px;
-    border: solid #ba1907 9px;
+    border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
@@ -86,11 +127,11 @@ justify-content: space-evenly;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto2{
+#foto2 img{
     margin-left: 500px;
     width: 250px;
     height: 370px;
-    border: solid #ba1907 18px;
+    border: solid #030303 2px;
     margin-right: 100px;  
 }
 #botao2 button{
@@ -99,13 +140,15 @@ justify-content: space-evenly;
 #Nomes2{
     display: flex;
     justify-content: space-evenly;
-    }
+}
+
+/* Descrição 3 */
 #descriçao3{
-    background-color:#2e5b73 ;   
+    background-color:#030303 ;   
 }
 #nomedescrição3{
     margin-left: 100px;
-    border: solid #ba1907 9px;
+    border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
@@ -115,23 +158,25 @@ justify-content: space-evenly;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto3{
+#foto3 img{
     margin-left: 500px; 
     margin-left: 500px;
     width: 250px;
     height: 370px;
-    border: solid #ba1907 18px;
+    border: solid #030303 2px;
     margin-right: 100px;  
 }
 #botao3 button{
     width: 120px;
 }
+
+/* Descrição 4 */
 #descriçao4{
-    background-color:#2e5b73 ;   
+    background-color:#030303 ;   
 }
 #nomedescrição4{
     margin-left: 100px;
-    border: solid #ba1907 9px;
+    border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
@@ -141,14 +186,21 @@ justify-content: space-evenly;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto4{
-    margin-left: 500px; 
+#foto4 img{
     margin-left: 500px;
     width: 250px;
     height: 370px;
-    border: solid #ba1907 18px;
-    margin-right: 100px;  
+    margin-right: 100px;
+    border: solid #030303 2px; 
 }
 #botao4 button{
     width: 120px; 
+}
+
+#Rodape{
+    text-align: center;
+    color: white;
+    background:  #030303;
+    padding: 2px;
+    
 }
