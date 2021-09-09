@@ -1,27 +1,29 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-input{
+input {
     border-radius: 4px;
     border: none;
     padding: 5px;
 }
 
-button{
+button {
     border-radius: 4px;
     border: none;
     height: 25px;
     padding: 5px;
 }
-#cabecalho{
+
+#cabecalho {
     background-color:#030303;
     display: flex;
     justify-content: space-between;
     color:white;
 }
-#cabecalho div{
+
+#cabecalho div {
     display: flex;
     margin-right: 20px;
     justify-content: center;
@@ -29,48 +31,53 @@ button{
     gap: 2px;
 }
 
-#CorExercicio{
+#CorExercicio {
     background-color: #e8aa23;
 }
 
-#FotGrande{
+#FotGrande {
     text-align: center;
     margin-left: 200px;
     border-radius: 10px;
     margin-right: 305px;
 }
 
-#FotGrande img{
+#FotGrande img {
     border: solid #030303 2px;
 }
-#Nomes1{
+
+#Nomes1 {
 display: flex;
 justify-content: space-evenly;
 }
-#foto1{
+
+#foto1 {
     width: 300px;
     height: 408px;
     border: solid #030303 2px;
     margin-right: 100px;
 }
-#cabeçalhoPedido{
+
+#cabeçalhoPedido { 
     background-color:#030303 ;
 }
-#CordoPedido{
+
+#CordoPedido {
     display: flex;
     background-color: #e8aa23;
     height: 545px;
 }
 
-#CordoPedido img{
+#CordoPedido img {
     margin-left: 100px;
     margin-top: 30px;
 }
-#pedidoPrincipal{
+#pedidoPrincipal {
     margin-left: 100px;
     font-size: 18px;
 }
-#Sabores{
+
+#Sabores {
     display: flex;
     justify-content: space-evenly;
 }
@@ -84,37 +91,44 @@ justify-content: space-evenly;
     background-color: #e8aa23;
     height: 600px;  
 }
-#nomedescrição1{
+
+#nomedescrição1 {
     margin-left: 100px;
     border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
 }
-#hamburguer1{
+
+#hamburguer1 {
     display: flex;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto1{
+
+#foto1 {
     margin-left: 500px;  
 }
-#Componentes1{
+
+#Componentes1 {
     margin-left: 100px; 
 }
 
 #botao1 button {
     width: 120px;
 }
+
 /* Descrição 2 */
-#Sabores2{
+#Sabores2 {
     display: flex;
     justify-content: space-evenly;
 }
-#descriçao2{
+
+#descriçao2 {
     background-color:#030303 ;   
 }
-#nomedescrição2{
+
+#nomedescrição2 {
     margin-left: 100px;
     border: solid #030303 2px;
     border-radius: 15px;
@@ -122,43 +136,49 @@ justify-content: space-evenly;
     text-align: center;
 }
 
-#hamburguer2{
+#hamburguer2 {
     display: flex;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto2 img{
+
+#foto2 img {
     margin-left: 500px;
     width: 250px;
     height: 370px;
     border: solid #030303 2px;
     margin-right: 100px;  
 }
-#botao2 button{
+
+#botao2 button {
     width: 120px;
 }
-#Nomes2{
+
+#Nomes2 {
     display: flex;
     justify-content: space-evenly;
 }
 
 /* Descrição 3 */
-#descriçao3{
+#descriçao3 {
     background-color:#030303 ;   
 }
-#nomedescrição3{
+
+#nomedescrição3 {
     margin-left: 100px;
     border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
 }
-#hamburguer3{
+
+#hamburguer3 {
     display: flex;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto3 img{
+
+#foto3 img {
     margin-left: 500px; 
     margin-left: 500px;
     width: 250px;
@@ -166,41 +186,45 @@ justify-content: space-evenly;
     border: solid #030303 2px;
     margin-right: 100px;  
 }
-#botao3 button{
+
+#botao3 button {
     width: 120px;
 }
 
 /* Descrição 4 */
-#descriçao4{
+#descriçao4 {
     background-color:#030303 ;   
 }
-#nomedescrição4{
+
+#nomedescrição4 {
     margin-left: 100px;
     border: solid #030303 2px;
     border-radius: 15px;
     margin-right: 800px;
     text-align: center;
 }
-#hamburguer4{
+
+#hamburguer4 {
     display: flex;
     margin-left: 10px;
     justify-content: space-evenly;
 }
-#foto4 img{
+
+#foto4 img {
     margin-left: 500px;
     width: 250px;
     height: 370px;
     margin-right: 100px;
     border: solid #030303 2px; 
 }
-#botao4 button{
+
+#botao4 button {
     width: 120px; 
 }
 
-#Rodape{
+#Rodape {
     text-align: center;
     color: white;
     background:  #030303;
     padding: 2px;
-    
 }
